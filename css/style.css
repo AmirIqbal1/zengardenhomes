@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgba(26, 81, 211, 0.2);
+  font-family: "Roboto";
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p {
+  margin: 0;
+}
+
+#banner {
+  padding: 7rem 0;
+  padding-bottom: 30rem;
+  background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#banner .logo {
+  font-size: 2.75rem;
+  font-weight: 500;
+  color: #3E797C;
+}
+
+#banner .logo img {
+  width: 8rem;
+  margin-right: 2rem;
+}
+
+#banner .learnMoreBtn {
+  padding: 1.25rem 4rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-radius: 3rem;
+  background: #3E797C;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  color: #FAECD9;
+}
+
+#banner .title {
+  font-size: 8.5rem;
+  font-weight: 900;
+  color: #3E797C;
+  padding: 5rem 0;
+}
+
+.sectionTitle {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #FAECD9;
+  padding-bottom: 3.5rem;
+}
+
+#knowUs {
+  padding: 10rem 0;
+  background: #3E797C;
+  color: #FAECD9;
+}
+
+#knowUs img {
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+#knowUs .innerTxt {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #FAECD9;
+}
+
+.cmnBtn {
+  padding: 1.25rem 4rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-radius: 3rem;
+  background: #FAECD9;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  color: #3E797C;
+  text-decoration: underline;
+}
+
+#investor {
+  background: #FAECD9;
+  padding: 8rem 0;
+}
+
+#investor .card {
+  border: none;
+  text-align: center;
+  background: transparent;
+}
+
+#investor .card .cardImg {
+  border-radius: 1.785rem;
+  -webkit-border-radius: 1.785rem;
+  -moz-border-radius: 1.785rem;
+  -ms-border-radius: 1.785rem;
+  -o-border-radius: 1.785rem;
+  max-width: 15rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+#investor .card .card-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3E797C;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+#investor .card .card-text {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #3E797C;
+  padding-bottom: 2.5rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#footer {
+  padding: 10rem 0;
+  background-color: #3E797C;
+  color: #FAECD9;
+  background-image: url(../images/bannerTwo.png);
+  background-repeat: no-repeat;
+  background-size: 55% 100%;
+  background-position: top right;
+}
+
+#footer .sectionTitle {
+  padding-bottom: 2rem;
+}
+
+#footer .address .singleInfo {
+  margin-top: 3.5rem;
+}
+
+#footer .address .singleInfo .smlTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FAECD9;
+}
+
+#footer .address .singleInfo .smlTxt {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #FAECD9;
+}
+
+#footer .address .singleInfo .smlTxt a {
+  color: #FAECD9;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 7px;
+  }
+
+  .container {
+    overflow: hidden;
+  }
+
+  #banner {
+    padding-bottom: 15rem;
+  }
+
+  #knowUs .innerTxt {
+    padding-top: 2rem;
+  }
+
+  #investor .card .cardImg {
+    max-width: 25rem;
+  }
+
+  #footer {
+    background: #3E797C;
+  }
+}
